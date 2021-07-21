@@ -1,0 +1,6 @@
+{
+  "watch": ["src/index.js", "src/"],
+  "ext": "js",
+  "verbose": true,
+  "ignore": ["src/*.test.js", "src/fixtures/*", "build/", "*.lock", "package.json", "node_modules/*"]
+}
