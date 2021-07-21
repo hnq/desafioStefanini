@@ -1,4 +1,9 @@
 # desafioStefanini
+
+Criar Docker para mySQL
+docker run --name some-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest
+
+
 build do projeto 
 node_modules/.bin/babel src -d build --copy-files --no-copy-ignored --verbose
 
